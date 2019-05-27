@@ -1,0 +1,22 @@
+{
+    "AppName": "kitago",
+    "ConfigVersion": "0.9",
+    "BuildSettings": {
+    },
+    "Tasks": [
+      "interpolate-source",
+      "default"
+    ],
+    "TasksExclude": [
+      "archive",
+      "codesign",
+      "copy-resources",
+      "deb",
+      "deb-dev",
+      "downloads-page",
+      "go-vet",
+      "go-test",
+      "go-install",
+      "rmbin"
+    ]
+  }
